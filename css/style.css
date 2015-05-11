@@ -1,0 +1,169 @@
+
+p{
+
+    display:block;
+    font-size: 25px;
+    height: 20px;
+    position: relative;
+    border-left:hidden;
+
+    
+
+}
+
+span{
+
+	position: absolute;
+	right: 80px;
+}
+
+
+.content{
+
+border: 3px solid #99CCFF;
+float:left;
+width: 20%;
+padding: 20px 0px 15px 0px;
+margin-left: 5%;
+margin-top: 10%;
+
+}
+
+.inner{
+
+   
+    width:90%;
+    height:240px;
+    top:25%;
+    margin: 0 auto;
+    position: relative;
+    background: url(http://www.clipartbest.com/cliparts/di6/y6e/di6y6e5i9.jpeg)no-repeat;
+    background-size: contain;
+
+
+}
+
+.square{
+
+display:inline-block;
+border:2px solid #99CCFF;
+background-color: white;
+width:15%;
+height:50px;
+float:left;
+position:relative;
+top:65px;
+
+
+}
+
+.square:hover{
+
+    background-color: #99CCFF;
+
+}
+
+#h1 {
+
+background-image: url(http://thumbs.dreamstime.com/x/two-opposite-horizontal-arrows-6285359.jpg);
+background-size: 100%;
+background-size: center;
+
+
+
+}
+#h1:hover{
+
+background-color: #99CCFF;
+}
+
+
+#h2{
+
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-X2WIEZFIUIHBrqH-b3bNduNqdlDX0PTqlel0K4NlLqZb4MI);
+background-size: 105%;
+background-size: center;
+
+
+}	
+
+#h2:hover{
+
+background-color: #99CCFF;
+}
+
+#h3{
+
+background-image: url(https://t2.ftcdn.net/jpg/00/42/49/25/400_F_42492512_CVhrSckbvRtAhjHhBRuTkH1KfHETYX1b.jpg);
+background-size:90%;
+background-size: center;
+
+}
+
+#h3:hover{
+
+background-color: #99CCFF;
+}
+
+#h4{
+
+background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/120px-Ski_trail_rating_symbol-blue_square.svg.png);
+background-size: 90%;
+background-size: center;
+
+
+}
+
+#h4:hover{
+
+background-color: #99CCFF;
+}
+
+#h5{
+
+background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbU43d7JyrWLejbOW5OXdGvKVX02BxdBaRNJIM5M4Xqv0FDDFo);
+background-size: 100%;
+background-size: center;
+
+cursor: pointer;
+
+
+}
+
+#h5:hover{
+
+background-color: #99CCFF;
+}
+
+
+.toolbar{
+
+position: relative;
+bottom: -10px;
+width:126%;
+color: #99CCCFF;
+text-align: left;
+height: 80%;
+
+
+}
+
+.hover-menu {
+    background-color: white;
+    border: 3px solid blue;
+    position: absolute;
+    display: inline-block;
+    padding: 50px;
+    top:50%;
+    left:100%;
+    transform: translate(4rem,-50%);
+    opacity: 0;
+    transition: all .5s ease;
+    display: block;
+    pointer-events: none;
+}
+
+
+
+
+
